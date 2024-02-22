@@ -1,4 +1,39 @@
 @charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -811,31 +846,31 @@
   border-bottom-left-radius: 9999px;
 }
 
-.block {
+.display-block {
   display: block;
 }
 
-.inline-block {
+.display-inline-block {
   display: inline-block;
 }
 
-.inline {
+.display-inline {
   display: inline;
 }
 
-.flex {
+.display-flex {
   display: flex;
 }
 
-.inline-flex {
+.display-inline-flex {
   display: inline-flex;
 }
 
-.table {
+.display-table {
   display: table;
 }
 
-.inline-table {
+.display-inline-table {
   display: inline-table;
 }
 
@@ -1451,6 +1486,78 @@
 .size-fit {
   width: fit-content;
   height: fit-content;
+}
+
+.container-full-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-full-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container-1__2-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.container-1__2-row {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.container-1__3-column {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+.container-1__3-row {
+  display: flex;
+  flex-direction: row;
+  width: 33.33%;
+}
+
+.container-1__4-column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.container-1__4-row {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+}
+
+.container-1__5-column {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.container-1__5-row {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.container-1__6-column {
+  display: flex;
+  flex-direction: column;
+  width: 16.66%;
+}
+
+.container-1__6-row {
+  display: flex;
+  flex-direction: row;
+  width: 16.66%;
 }
 
 .h-0 {
@@ -5220,6 +5327,34 @@
 
 .max-w-screen-2xl {
   max-width: 1536px;
+}
+
+.position-static {
+  position: static;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.debug {
+  border: 1px dashed red;
+}
+
+.debug-blue {
+  border: 1px dashed red;
 }
 
 .bg-inherit {
