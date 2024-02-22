@@ -1,5 +1,6 @@
 @import "./reset/reset";
 @import "./debug/debug";
+@import "./variables/vars";
 
 @import "./border/border-style";
 @import "./border/border_width";
@@ -13,7 +14,9 @@
 
 @import "./text/text-size";
 @import "./text/text-color-alias";
+@import "./text/text-color";
 @import "./text/text-weight";
+@import "./text/text-style";
 
 @import "./size/size";
 
