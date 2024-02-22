@@ -1,0 +1,32 @@
+@import "./border/border-style";
+@import "./border/border_width";
+@import "./border/border_radius";
+
+@import "./display/display-style";
+
+@import "./display/flex/flex-directions";
+@import "./display/flex/flex-items";
+@import "./display/flex/flex-justify";
+
+@import "./text/text-size";
+@import "./text/text-color-alias";
+@import "./text/text-weight";
+
+@import "./size/size";
+
+@import "./height/height";
+@import "./height/height-min";
+@import "./height/height-max";
+
+@import "./margin/margin";
+@import "./padding/padding";
+
+@import "./width/width";
+@import "./width/width-min";
+@import "./width/width-max";
+
+@import "./position/position";
+@import "./debug/debug";
+
+@import "./background/background-color";
+// @import "./font/text-size";
