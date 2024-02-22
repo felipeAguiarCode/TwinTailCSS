@@ -1,10 +1,8 @@
 [![TwinTailCSS Banner](./.github/assets/banner.png)]()
 
-# TwinTailCSS 🐾
+# TwinTailCSS 🐾![Version](https://img.shields.io/badge/version-1.0.0-purple)
 
 A Modular Flavor of Tailwind
-
-![Version](https://img.shields.io/badge/version-1.0.0-purple)
 
 TwinTailCSS is a lightweight, modular front-end framework that combines the best of **Tailwind CSS** and **Bootstrap**. It provides a set of utility classes and custom styles to quickly develop beautiful and responsive web interfaces.
 
