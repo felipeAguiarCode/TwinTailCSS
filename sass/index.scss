@@ -5,6 +5,7 @@
 @import "./border/border-style";
 @import "./border/border_width";
 @import "./border/border_radius";
+@import "./border/border-color";
 
 @import "./display/display-style";
 
@@ -20,7 +21,7 @@
 
 @import "./size/size";
 
-@import "./container/containers";
+@import "./container/container-flex";
 
 @import "./height/height";
 @import "./height/height-min";
