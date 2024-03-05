@@ -4,7 +4,7 @@ const cleanCSS = require("gulp-clean-css");
 
 function compileSass() {
   return gulp
-    .src("sass/*.scss")
+    .src("modules-sass/*.scss")
     .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
     .pipe(gulp.dest("dist/css"))
     .pipe(cleanCSS())
