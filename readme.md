@@ -25,7 +25,7 @@ To use TwinTailCSS in your project, follow these simple steps:
 
 ## Documentation
 
-**Under Construction**: We're currently working on comprehensive documentation to help you get started with TwinTailCSS. Stay tuned!
+🚧 **Under Construction** 🚧: We're currently working on comprehensive documentation to help you get started with TwinTailCSS. Stay tuned!
 
 ## Browser Support
 
